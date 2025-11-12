@@ -1,3 +1,5 @@
 x=str(input('Digite um nome:'))
 print(x.isnumeric())
-print(x.isnumeric())
+print(x.isalnum())
+print(x.isalpha())
+print(x.isascii())
